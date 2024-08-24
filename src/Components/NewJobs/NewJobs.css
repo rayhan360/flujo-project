@@ -1,0 +1,15 @@
+.hole-button {
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.3),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.5), 4px 4px 8px rgba(0, 0, 0, 0.2);
+  border: none;
+  color: #16005d;
+}
+
+.hole-button.active-year {
+  background-color: #005efe;
+  color: white;
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.5),
+    inset -4px -4px 8px rgba(0, 0, 0, 0.1);
+}
